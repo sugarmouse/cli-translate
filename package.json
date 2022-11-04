@@ -1,0 +1,32 @@
+{
+  "name": "cli-translate",
+  "version": "1.0.4",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/ts-node-dev src/cli.ts"
+  },
+  "bin": {
+    "translate": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "keywords": [
+    "cli",
+    "translate"
+  ],
+  "author": "tanghap",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/md5": "^2.3.2",
+    "@types/node": "^18.11.9",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "md5": "^2.3.0",
+    "typescript": "^4.8.4"
+  }
+}
